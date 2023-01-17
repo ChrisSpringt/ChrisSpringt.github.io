@@ -1,0 +1,245 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #fff;
+    overflow-x: hidden;
+    font-family: 'futura-pt', sans-serif;
+    text-transform: uppercase;
+}
+
+
+.webgl
+{
+    position: fixed;
+    z-index: 2;
+    top: 15%;
+    bottom: 15%;
+    left: 0;
+    outline: none;
+}
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    transition: 1s all ease-in-out;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    /*background-image: url(../assets/images/background.jpg);*/
+    /*object-fit: cover;*/
+    opacity:1;
+    background: radial-gradient(circle at 3% 5%, #253239 0%, #0b0c0d 50%);
+}
+
+
+.webgl {
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    transition: 1s opacity ease-in;
+}
+
+.webgl.show {
+    opacity: 1;
+   
+}
+
+/*
+
+
+
+
+body {
+    color: #fff;
+    overflow-x: hidden;
+}
+
+body, p, h1, h2, h3, h4, h5, h6, a {
+    font-family: 'futura-pt', sans-serif;
+    color: #fff;
+}
+
+
+
+.webgl {
+    position: fixed;
+    z-index: 2;
+    opacity: 0;
+    transition: 1s opacity ease-in;
+}*/
+ul {
+    list-style-type: disc;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.footer-menu.show {
+    opacity: 1;
+}
+
+html, body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-size: 12px;
+    font-family: 'futura-pt', sans-serif;
+    color: #fff;
+    height: 100%;
+}
+
+.footer-menu.show {
+    opacity: 1;
+}
+
+.footer-menu {
+    z-index: 100;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    bottom: 15vh;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: .4s all ease-in-out;
+    font-family: 'futura-pt', sans-serif;
+}*/
+
+.footer-menu .menu-item {
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.2vw;
+    text-indent: .2vw;
+    font-size: 1vw;
+    opacity: .5;
+    padding-right: 4vw;
+    padding-left: 4vw;
+    user-select: none;
+}*/
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+.footer-menu {
+    z-index: 100;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    bottom: 15vh;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: .4s all ease-in-out;
+}
+
+#btn {
+    position: absolute;
+    bottom: 10%;
+    left: 20%;
+    font-family: 'futura-pt', sans-serif;
+    text-transform: uppercase;
+    background-color: #2b2a2b;
+    border: 1px solid #2b2a2b;
+    color: #9dbdbf;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+}
+
+#btn2 {
+    position: absolute;
+    bottom: 10%;
+    left: 32.5%;
+    text-transform: uppercase;
+    background-color: #2b2a2b;
+    border: 1px solid #2b2a2b;
+    color: #9dbdbf;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+}
+
+#btn3 {
+    position: absolute;
+    bottom: 10%;
+    left: 45%;
+    text-transform: uppercase;
+    background-color: #2b2a2b;
+    border: 1px solid #2b2a2b;
+    color: #9dbdbf;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+}
+
+
+#btn4 {
+    position: absolute;
+    bottom: 10%;
+    left: 57.5%;
+    
+    background-color: #2b2a2b;
+    border: 1px solid #2b2a2b;
+    color: #9dbdbf;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+}
+
+#btn5 {
+    position: absolute;
+    bottom: 10%;
+    right: 20%;
+    
+    background-color: #2b2a2b;
+    border: 1px solid #2b2a2b;
+    color: #9dbdbf;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+}
+
+
+
+
+
+/*# sourceMappingURL=main.css.map*/
